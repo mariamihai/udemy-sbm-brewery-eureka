@@ -3,6 +3,13 @@
 # SFG Brewery Gateway Service
 Spring Boot Microservice project.
 
+  - [Description](#description)
+  - [Docker images](#docker-images)
+  - [Implementation details](#implementation-details)
+    - [Properties](#properties)
+    - [Security](#security)
+    - [Profiles](#profiles)
+
 ## Description
 The current project is part of the "Spring Boot Microservices with Spring Cloud" [Udemy course](https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/). 
 
@@ -28,3 +35,14 @@ spring.application.name=eureka
 ```
 server.port=8761
 ```
+
+### Security
+I am using Basic Auth to secure the current project. For better implementations of securing an application, check 
+[this](https://github.com/mariamihai/spring-security-amigoscode-tutorial) project.
+```
+spring.security.user.name=netflix
+spring.security.user.password=eureka
+```
+
+### Profiles
+There is no active profile defined for the current project.
