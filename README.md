@@ -1,6 +1,6 @@
 [![Docker](https://img.shields.io/docker/v/mariamihai/sbm-brewery-eureka?sort=date)](https://hub.docker.com/r/mariamihai/sbm-brewery-eureka)
 
-# SFG Brewery Gateway Service
+# SFG Brewery Eureka Service
 Spring Boot Microservice project.
 
   - [Description](#description)
