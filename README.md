@@ -27,7 +27,7 @@ For automatic building of Docker images check the next projects:
 
 ## Implementation details
 ### Properties
-- the name of the application, used by Eureka and the other services 
+- the name of the application, used by the other services 
 ```
 spring.application.name=eureka
 ```
